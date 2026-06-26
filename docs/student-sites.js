@@ -1,11 +1,16 @@
 const studentSites = [
   // Add student mini-site links here after the conference.
   // Example:
-  // {
-  //   title: "Electromagnetic Waves in Daily Life",
-  //   presenter: "Student Name",
-  //   href: "https://example.com/student-site",
-  // },
+  {
+  title: "Electromagnetic Waves in Daily Life",
+  presenter: "Student Name",
+  href: "https://example.com/student-site",
+  },  
+  {
+  title: "Electromagnetic Waves in Daily Life 2",
+  presenter: "Student Name 2",
+  href: "https://example.com/student-site2",
+  },
 ];
 
 const list = document.querySelector("#student-sites");
