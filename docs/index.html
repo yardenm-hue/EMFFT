@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Student flash talk conference website for electromagnetic fields."
+    >
+    <title>EMFFT 2026</title>
+    <link rel="icon" href="assets/emfft-2026-logo.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#top" aria-label="EMFFT 2026 home">
+          <img src="assets/emfft-2026-logo.png" alt="EMFFT 2026 logo">
+          <span>
+            <strong>EMFFT 2026</strong>
+            <small>Student Flash Talk Conference</small>
+            <small class="venue">Tel Aviv University</small>
+          </span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#dates">Dates</a>
+          <a href="#students">Student Sites</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="top" class="hero">
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow blue">Electromagnetic Fields Flash Talks</p>
+            <h1>EMFFT 2026</h1>
+            <p>
+              A simple course conference for student flash talks about electromagnetic
+              fields. The site will collect the conference information now and later
+              link to the mini websites students submit alongside their talks.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="dates" class="dates-band">
+        <div class="shell">
+          <p class="eyebrow orange">Conference Dates</p>
+          <ul class="date-list">
+            <li>July 2, 2026</li>
+            <li>July 9, 2026</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="students" class="student-section">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow cyan">Student Mini Websites</p>
+              <h2>Links will appear after EMFFT</h2>
+            </div>
+            <p>
+              Mini-site links will be collected here as students submit their
+              accompanying work.
+            </p>
+          </div>
+
+          <div class="student-panel">
+            <ul id="student-sites" class="student-list" aria-live="polite"></ul>
+            <p id="student-empty" class="empty-state">
+              Student project links have not been posted yet.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="student-sites.js"></script>
+  </body>
+</html>
