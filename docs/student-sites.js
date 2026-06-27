@@ -7,8 +7,8 @@ const studentSites = [
   href: "https://example.com/student-site",
   },  
   {
-  title: "Electromagnetic Waves in Daily Life 2",
-  presenter: "Student Name 2",
+  title: "שדות אלקטרומגנטיים בקבל",
+  presenter: "סטודנט 2",
   href: "https://example.com/student-site2",
   },
 ];
